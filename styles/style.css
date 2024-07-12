@@ -23,7 +23,7 @@ header {
   align-items: center;
   max-width: 1100px;
   height: 550px;
-  margin: 21px 45px 221px 221px;
+  margin: 21px 45px 0px 221px;
   gap: 20px;
 }
 .banner-title {
@@ -54,8 +54,10 @@ main {
   padding: 80px 97px;
   border: 2px solid red;
   width: 1140px;
+  height: auto;
   margin: 74px 150px 90px 150px;
 }
+/* reason-style */
 .reason-for-webdevelopment {
   display: flex;
   width: 946px;
@@ -68,12 +70,7 @@ main {
   padding: 0px 47px 48px 47px;
   border: 2px solid red;
 }
-/* display: flex;
-width: 946px;
-flex-direction: column;
-align-items: center;
-gap: 48px;
-flex-shrink: 0; */
+
 .section-title {
   font-size: 32px;
   font-weight: 800;
@@ -96,9 +93,6 @@ flex-shrink: 0; */
   align-items: center;
 }
 
-/* border: 1px solid #0D1321;
-
-opacity: 0.7; */
 /* expectation-section */
 .expectation-1,
 .expectation-2,
@@ -127,4 +121,35 @@ opacity: 0.7; */
 .expectation-3 img {
   width: 260px;
   border: 2px solid red;
+}
+/* motivational section */
+.motivation {
+  width: 946px;
+  height: auto;
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+}
+.inspiration {
+  width: 852px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #0d1321;
+  text-align: center;
+  font-style: normal;
+  gap: 24px;
+}
+.inspiration-title {
+  font-size: 32px;
+  font-weight: 800;
+  line-height: normal;
+}
+.inspiration-description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
 }
