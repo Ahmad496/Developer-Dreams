@@ -153,3 +153,73 @@ main {
   font-weight: 400;
   line-height: 26px;
 }
+/* target section */
+.targets {
+  width: 946px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  border: 2px solid red;
+}
+.target-text {
+  display: flex;
+  width: 852px;
+  height: auto;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin: 151px 97px 0px 97px;
+  border: 2px solid red;
+  color: #0d1321;
+  text-align: center;
+  font-style: normal;
+}
+.target-title {
+  font-size: 32px;
+  font-weight: 800;
+  line-height: normal;
+}
+.target-description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.target-skill {
+  display: flex;
+  width: 946px;
+  height: auto;
+  align-items: center;
+  gap: 24px;
+  border: 2px solid red;
+}
+.target-1,
+.target-2,
+.target-3 {
+  display: flex;
+  padding: 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  border-radius: 16px;
+  border: 2px solid red;
+}
+.target-1 {
+  background: rgba(255, 76, 30, 0.05);
+}
+.target-2 {
+  background: rgba(0, 76, 232, 0.05);
+}
+.target-3 {
+  background: rgba(255, 223, 0, 0.05);
+}
+.btn-target {
+  color: #0d1321;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline;
+  border: none;
+}
