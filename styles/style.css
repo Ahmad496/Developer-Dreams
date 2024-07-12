@@ -13,6 +13,8 @@
 header {
   margin-top: 130px;
   background-image: url(../assets/Hero-bg.png);
+  width: 1440px;
+  height: auto;
 }
 /* banner-style */
 .banner {
@@ -39,4 +41,90 @@ header {
   padding: 12px 15px;
   justify-content: center;
   align-items: center;
+}
+/* main styles */
+main {
+  width: 1440px;
+  height: 5245px;
+  align-items: center;
+  border: 2px solid red;
+  background: rgba(13, 19, 33, 0.02);
+}
+.content-section {
+  padding: 80px 97px;
+  border: 2px solid red;
+  width: 1140px;
+  margin: 74px 150px 90px 150px;
+}
+.reason-for-webdevelopment {
+  display: flex;
+  width: 946px;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  color: #0d1321;
+  text-align: center;
+  font-style: normal;
+  padding: 0px 47px 48px 47px;
+  border: 2px solid red;
+}
+/* display: flex;
+width: 946px;
+flex-direction: column;
+align-items: center;
+gap: 48px;
+flex-shrink: 0; */
+.section-title {
+  font-size: 32px;
+  font-weight: 800;
+  line-height: normal;
+}
+.section-description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+/* shared-style */
+.btn-exp {
+  border: 1px solid #0d1321;
+  opacity: 0.7;
+  width: 132px;
+  height: 25px;
+  display: flex;
+  padding: 12px 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* border: 1px solid #0D1321;
+
+opacity: 0.7; */
+/* expectation-section */
+.expectation-1,
+.expectation-2,
+.expectation-3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 946px;
+  height: auto;
+  padding: 24px;
+  gap: 32px;
+  border: 2px solid red;
+}
+.expectation-text-container,
+.expectation-2-text-container,
+.expectation-3-text-container {
+  display: flex;
+  width: 477px;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 2px solid green;
+  gap: 32px;
+}
+.expectation-1 img,
+.expectation-2 img,
+.expectation-3 img {
+  width: 260px;
+  border: 2px solid red;
 }
