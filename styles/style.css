@@ -223,3 +223,69 @@ main {
   text-decoration-line: underline;
   border: none;
 }
+/* support section */
+.support {
+  margin-top: 50px;
+  background-image: url("../assets/handshake.jpg");
+  width: 946px;
+  height: 652px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 24px;
+}
+.support-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  align-self: stretch;
+}
+.support-title {
+  width: 292px;
+  height: auto;
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+}
+.support-description {
+  width: 606px;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+.support-input {
+  display: flex;
+  padding: 17px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.support-input input {
+  display: flex;
+  width: 548px;
+  padding: 19px 20px;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  background: #fff;
+}
+.support-input button {
+  display: flex;
+  width: 120px;
+  padding: 17px 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background: #fff;
+  text-decoration: none;
+}
